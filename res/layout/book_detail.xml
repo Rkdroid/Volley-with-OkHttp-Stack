@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <com.android.volley.toolbox.NetworkImageView 
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/book_image"
+        android:scaleType="fitXY"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher"/>
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_title"
+        android:textSize="22sp"
+        android:text="Seven is my lucky number"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_gray"/>
+    
+      <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_author"
+        android:textSize="18sp"
+        android:text="Lucy Ascot"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"/>
+      
+      <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_price"
+        android:textSize="22sp"
+        android:text="EUR 10.00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"/>
+    
+</LinearLayout>
